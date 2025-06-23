@@ -250,7 +250,7 @@ class GiveawaySettingTab extends obsidian.PluginSettingTab {
         if (this.plugin.settings.autoUpdate) {
             new obsidian.Setting(containerEl)
                 .setName("Epic Games Weekly Schedule")
-                .setDesc("Sync updates to Thursdays 6:04PM Israel time")
+                .setDesc("Sync Updates to Epic Games Store's weekly giveaway schedule")
                 .addToggle((toggle) => toggle.setValue(this.plugin.settings.epicScheduled).onChange((value) => __awaiter(this, void 0, void 0, function* () {
                 this.plugin.settings.epicScheduled = value;
                 yield this.plugin.saveSettings();

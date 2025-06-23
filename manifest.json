@@ -2,7 +2,7 @@
   "id": "gamer-giveaways",
   "name": "Gamer Giveaways Fetcher",
   "version": "1.0.0",
-  "author": "Yan",
+  "author": "abduznik",
   "description": "Fetches gaming giveaways and organizes them by platform in a collapsible format.",
   "main": "main.js",
   "minAppVersion": "0.15.0"

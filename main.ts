@@ -252,7 +252,7 @@ class GiveawaySettingTab extends PluginSettingTab {
     if (this.plugin.settings.autoUpdate) {
       new Setting(containerEl)
         .setName("Epic Games Weekly Schedule")
-        .setDesc("Sync updates to Thursdays 6:04PM Israel time")
+        .setDesc("Sync Updates to Epic Games Store's weekly giveaway schedule")
         .addToggle((toggle) =>
           toggle.setValue(this.plugin.settings.epicScheduled).onChange(async (value) => {
             this.plugin.settings.epicScheduled = value;
