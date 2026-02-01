@@ -50,3 +50,24 @@ To build the plugin, you'll need to have Node.js and npm installed.
 3. Run `npm run build` to build the plugin.
 
 This will create a `main.js` file in the project root, which you can then use to test the plugin in Obsidian.
+
+### Development
+
+To develop the plugin, you'll need to have Node.js and npm installed.
+
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run dev` to generate the plugin.
+
+If you get permissions error:
+```
+sh: line 1: /home/retro/packages/Obsidian-Game-Giveaways/node_modules/.bin/rollup: Permission denied
+```
+Add permission, then try again:
+```
+chmod +x node_modules/.bin/rollup
+```
+- You should have `main.ts` and `manifest.json` generated now.
+- In your Obsidian vault, go to `.obsidian/plugins/` and create a new folder named `obsidian-game-giveaways`.
+- Copy `main.ts` and `manifest.json` there.
+- Restart Obsidian Vault, should find the plugin now.
