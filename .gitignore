@@ -5,3 +5,7 @@ yarn-error.log
 # Standard Obsidian plugin ignores
 .idea/
 .vscode/
+
+.obsidian/
+
+main.js
