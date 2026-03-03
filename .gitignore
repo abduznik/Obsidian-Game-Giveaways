@@ -2,6 +2,9 @@ node_modules/
 .DS_Store
 npm-debug.log
 yarn-error.log
+
 # Standard Obsidian plugin ignores
 .idea/
 .vscode/
+.obsidian/
+main.js
