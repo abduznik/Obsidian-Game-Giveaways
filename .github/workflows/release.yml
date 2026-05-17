@@ -30,12 +30,12 @@ jobs:
         run: npm run build
 
       - name: Generate artifact attestation for main.js
-        uses: actions/attest@v1
+        uses: actions/attest@v4
         with:
           subject-path: 'main.js'
 
       - name: Generate artifact attestation for manifest.json
-        uses: actions/attest@v1
+        uses: actions/attest@v4
         with:
           subject-path: 'manifest.json'
 
