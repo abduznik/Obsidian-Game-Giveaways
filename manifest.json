@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "author": "abduznik",
   "description": "Fetches gaming giveaways and organizes them by platform in a collapsible format.",
-  "main": "main.js",
+  "isDesktopOnly": false,
   "minAppVersion": "0.15.0"
 }
