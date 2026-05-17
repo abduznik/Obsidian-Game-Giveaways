@@ -1,4 +1,4 @@
-# Obsidian Game Giveaways Plugin
+# Gamer Giveaways Fetcher
 
 This plugin for Obsidian fetches the latest game giveaways from various platforms and organizes them into neat, easy-to-read notes.
 
